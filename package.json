@@ -1,7 +1,7 @@
 {
-	"name": "uv-app",
+	"name": "E-app",
 	"version": "1.0.0",
-	"description": "Ultraviolet instance",
+	"description": "E instance",
 	"type": "module",
 	"engines": {
 		"node": ">=24.0.0"

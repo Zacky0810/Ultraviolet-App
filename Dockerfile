@@ -1,8 +1,8 @@
 FROM node:lts-alpine
 
-LABEL maintainer="TitaniumNetwork Ultraviolet Team"
-LABEL summary="Ultraviolet Proxy Image"
-LABEL description="Example application of Ultraviolet which can be deployed in production."
+LABEL maintainer="THeheHe HA Team"
+LABEL summary="BINK Proxy Image"
+LABEL description="Example application of e which can be deployed in production."
 
 ENV NODE_ENV=production
 WORKDIR /app

@@ -1,12 +1,14 @@
-// This file overwrites the stock UV config.js
+// Custom Runtime Config
 
-self.__uv$config = {
-	prefix: "/uv/service/",
+self.__runtime$config = {
+	prefix: "/service/",
+
 	encodeUrl: Ultraviolet.codec.xor.encode,
 	decodeUrl: Ultraviolet.codec.xor.decode,
-	handler: "/uv/uv.handler.js",
-	client: "/uv/uv.client.js",
-	bundle: "/uv/uv.bundle.js",
-	config: "/uv/uv.config.js",
-	sw: "/uv/uv.sw.js",
+
+	handler: "/runtime/handler.js",
+	client: "/runtime/client.js",
+	bundle: "/runtime/bundle.js",
+	config: "/runtime/config.js",
+	sw: "/runtime/worker.js",
 };
